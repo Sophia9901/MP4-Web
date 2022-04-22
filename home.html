@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>WG</title>
-        <link rel="stylesheet" href="style0.css">
+        <link rel="stylesheet" href="style.css">
 
         <!--Google fonts link-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,22 +15,35 @@
         <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="header">
-            <h1><a href="home.html">WG</a></h1>
-            <div class="nav">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Sign up</a></li>
-                </ul>
+        <div class="container">    
+            <div class="header">
+                <h1><a href="index.html">WG</a></h1>
             </div>
-        </div>
-        <div class="container">
-            <video src="mp4/homeback.mp4" muted autoplay loop></video>
-            <div class="content">
-                <h2>SEASON</h2>
-                <p>WG project NO.1</p>
-                <button><a href=index.html>VIEW</a></button>
+            <div class="video-warp">
+                <video src="mp4/season.mp4" muted autoplay loop poster="#">
+                    해당 영상의 경로가 올바르지 않습니다.
+                    해당 확장자는 지원하지 않습니다.
+                </video>
+                <div class="video-text">
+                    <h4>계절</h4>
+                    <p>계절이 주는 온도가<br>절대 사라지지 않기를</p>
+                </div>
+            </div>
+            <div class="text-warp">
+                <div class="subject">
+                    <h2><a href="home.html">Season</a></h2>
+                    <br>
+                    <hr>
+                </div>
+                <div class="list">
+                    <ul>
+                        <a href="1.html">N.01 Spring</a><br>
+                        <a href="2.html">N.02 Summer</a><br>
+                        <a href="3.html">N.03 Fall</a><br>
+                        <a href="4.html">N.04 Winter</a><br>
+                    </ul>
+                </div>
+            </div>
             </div>
         </div>
         <footer>
@@ -45,6 +58,5 @@
                 <span>Copyright 2022. cocoder. All Rights Reserved.</span>
             </p>
         </footer>
-
     </body>
 </html>
